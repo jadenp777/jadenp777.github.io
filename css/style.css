@@ -67,7 +67,7 @@ body {
     margin: 2em 2em 0 0;
     right: 0;
     top: 0;
-    color: var(--fg);
+    color: var(--sfg);
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -162,14 +162,14 @@ body {
 #minutes {
     font-size: var(--fsg);
     font-weight: bolder;
-    color: var(--fg);
+    color: var(--sfg);
 }
 
 #month,
 #day {
     font-size: var(--fsm);
     font-weight: bold;
-    color: var(--fg);
+    color: var(--sfg);
 }
 
 #day {
@@ -178,7 +178,7 @@ body {
 
 #greetings {
     font-size: var(--fss);
-    color: var(--fg);
+    color: var(--sfg);
 }
 @media only screen and (max-width: 68.75em) {
     #greetings {
@@ -195,13 +195,13 @@ body {
     font-size: var(--fss);
     font-weight: bolder;
     margin-left: 15px;
-    color: var(--fg);
+    color: var(--sfg);
 }
 
 .temperature-description p {
     font-size: var(--fss);
     margin-left: 15px;
-    color: var(--fg);
+    color: var(--sfg);
 }
 
 .qlink {
